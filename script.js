@@ -73,7 +73,7 @@ window.onload = function() {
                 x: target.x - 0.8*this.dt*Math.cos(this.angle),
                 y: target.y - 0.8*this.dt*Math.sin(this.angle)
             };
-            if (this.t.x){
+            if (this.t.x) {
                 this.segments[this.n - 1].update(this.t);
             } else {
                 this.segments[this.n - 1].update(target);
